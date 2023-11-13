@@ -5,6 +5,12 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "congestion-tax-calculator-net-core", "congestion-tax-calculator-net-core.csproj", "{664B70AE-DAA0-4BD0-A0F9-5A0B99497CE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{1E212586-294B-44EB-96F9-058F2EDC2975}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{1CEE699C-3B97-4A8C-A64E-3BD45E7FA47A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Test", "..\Domain.Test\Domain.Test.csproj", "{4F8061D2-E331-4309-BD47-B7D5F77753E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,20 @@ Global
 		{664B70AE-DAA0-4BD0-A0F9-5A0B99497CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{664B70AE-DAA0-4BD0-A0F9-5A0B99497CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{664B70AE-DAA0-4BD0-A0F9-5A0B99497CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E212586-294B-44EB-96F9-058F2EDC2975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E212586-294B-44EB-96F9-058F2EDC2975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E212586-294B-44EB-96F9-058F2EDC2975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E212586-294B-44EB-96F9-058F2EDC2975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8061D2-E331-4309-BD47-B7D5F77753E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8061D2-E331-4309-BD47-B7D5F77753E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8061D2-E331-4309-BD47-B7D5F77753E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8061D2-E331-4309-BD47-B7D5F77753E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F8061D2-E331-4309-BD47-B7D5F77753E6} = {1CEE699C-3B97-4A8C-A64E-3BD45E7FA47A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08E21D0D-DF33-46A0-801D-4190C038797B}
